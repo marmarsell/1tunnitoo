@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="todo.js" defer></script>
+    <title>Todo</title>
+</head>
+<body>
+    <div id="main">
+        <div id="inputContainer">
+            <input type="text" name="title" id="title" placeholder="name task">
+            <input type="text" name="description" id="description" placeholder="describe task">
+            <br><br>
+            > priority: [ <select name="priority" id="priority">
+                <option value="[L]">low</option>
+                <option value="[M]">medium</option>
+                <option value="[H]">high</option>
+            </select>
+            ] &nbsp &nbsp &nbsp> date: [<input type="date" name="date" id="date" value="2025-12-30">]
+        </div>
+        <br>
+        <div id="buttonContainer">
+            <button id="addButton">LISA</button>
+        </div>
+        <div id="taskList">
+            Taske pole
+        </div>
+    </div>
+</body>
+</html>
